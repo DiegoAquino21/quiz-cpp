@@ -1,0 +1,300 @@
+Em C++, qual biblioteca é utilizada para entrada e saída padrão?
+iostream
+fstream
+string
+vector
+1
+Qual comando é utilizado para mostrar texto no ecrã em C++?
+cin
+cout
+return
+include
+2
+Qual comando é utilizado para receber dados do utilizador em C++?
+cout
+cin
+endl
+void
+2
+Qual operador representa igualdade numa comparação em C++?
+=
+==
+!=
+>=
+2
+Qual operador representa diferente em C++?
+=
+==
+!=
+<=
+3
+Qual estrutura é utilizada para tomar decisões no programa?
+if
+for
+include
+cout
+1
+Qual estrutura é utilizada para repetir um bloco enquanto uma condição for verdadeira?
+if
+switch
+while
+struct
+3
+Qual ciclo é normalmente utilizado quando sabemos quantas repetições queremos executar?
+if
+for
+switch
+return
+2
+Qual tipo de variável é utilizado normalmente para números inteiros?
+string
+double
+int
+char
+3
+Qual tipo de variável permite armazenar números com casas decimais?
+int
+double
+char
+bool
+2
+Qual tipo é utilizado para armazenar texto em C++?
+string
+int
+bool
+float
+1
+Qual tipo é utilizado para armazenar um único carácter?
+string
+char
+int
+double
+2
+Qual tipo de variável pode armazenar verdadeiro ou falso?
+int
+char
+bool
+string
+3
+Qual palavra é utilizada para devolver um valor de uma função?
+break
+return
+continue
+void
+2
+O que representa void numa função?
+Uma função sem valor de retorno
+Uma variável inteira
+Uma condição
+Um ficheiro
+1
+Qual instrução termina normalmente um case dentro de um switch?
+return
+stop
+break
+exit
+3
+Qual símbolo é utilizado para terminar normalmente uma instrução em C++?
+:
+;
+,
+.
+2
+Qual operador realiza o resto de uma divisão?
+/
+*
+%
++
+3
+Qual é o resultado de 17 % 5?
+2
+3
+4
+5
+1
+Qual operador é utilizado para incrementar uma variável em uma unidade?
+--
+++
++=2
+==
+2
+Qual biblioteca utilizámos para trabalhar com ficheiros?
+iostream
+fstream
+random
+chrono
+2
+Qual classe utilizámos para abrir um ficheiro para leitura?
+ofstream
+ifstream
+fstreamout
+iostream
+2
+Qual classe utilizámos para escrever num ficheiro?
+ifstream
+ofstream
+iostream
+vector
+2
+Para que serve ios::app ao abrir um ficheiro?
+Apagar o ficheiro
+Adicionar conteúdo ao final do ficheiro
+Ler apenas a primeira linha
+Fechar o ficheiro
+2
+Qual função utilizámos para ler uma linha completa de um ficheiro?
+readline
+getline
+cin
+getfile
+2
+Qual função utilizámos para fechar explicitamente um ficheiro?
+stop()
+end()
+close()
+exit()
+3
+Para que serve um vector em C++?
+Guardar vários elementos
+Mostrar texto
+Criar ficheiros
+Fechar o programa
+1
+Qual função devolve a quantidade de elementos de um vector?
+length()
+count()
+size()
+total()
+3
+Qual função adiciona um elemento ao final de um vector?
+add()
+push_back()
+insert_end()
+append()
+2
+No nosso projeto, para que serve a struct Pergunta?
+Agrupar os dados de cada pergunta
+Criar o menu
+Controlar o Windows
+Fechar o programa
+1
+No nosso projeto, quantas respostas são guardadas para cada pergunta?
+2
+3
+4
+5
+3
+No nosso projeto, qual variável da struct indica a resposta correta?
+pergunta
+respostas
+correta
+ficheiro
+3
+Para que serve perguntas.empty()?
+Verificar se o vector está vazio
+Apagar o vector
+Fechar o vector
+Ordenar o vector
+1
+Para que serve shuffle() no nosso Quiz?
+Ordenar alfabeticamente as perguntas
+Misturar a ordem das perguntas
+Apagar perguntas
+Guardar as perguntas
+2
+Qual biblioteca é necessária para utilizar shuffle()?
+algorithm
+fstream
+Windows.h
+conio.h
+1
+Qual biblioteca utilizámos com random_device e mt19937?
+chrono
+random
+string
+iostream
+2
+Qual é a finalidade de random_device no nosso programa?
+Gerar uma fonte para aleatoriedade
+Ler o teclado
+Guardar pontuações
+Medir o tempo
+1
+Para que utilizámos mt19937?
+Como gerador para embaralhar as perguntas
+Para abrir ficheiros
+Para mostrar perguntas
+Para calcular a pontuação
+1
+Qual biblioteca utilizámos para medir o tempo das respostas?
+fstream
+chrono
+vector
+string
+2
+No nosso Quiz, para que serve chrono::steady_clock?
+Medir o tempo decorrido
+Guardar perguntas
+Gerar texto
+Abrir ficheiros
+1
+Qual função de conio.h verifica se uma tecla foi pressionada?
+_getch()
+_kbhit()
+getline()
+Sleep()
+2
+Qual função de conio.h permite obter a tecla pressionada?
+_kbhit()
+_getch()
+getkey()
+cin()
+2
+No nosso programa, o que acontece quando lerRespostaComTempo devolve 0?
+A resposta é considerada não respondida
+O jogador ganha 10 pontos
+O programa fecha
+A pergunta é considerada correta
+1
+Quanto vale cada resposta correta no Quiz?
+5 pontos
+10 pontos
+15 pontos
+20 pontos
+2
+Se o jogador responder incorretamente, quantos pontos recebe nessa pergunta?
+0
+5
+10
+20
+1
+Para que serve SetConsoleOutputCP(CP_UTF8)?
+Permitir a apresentação correta de caracteres UTF-8 na consola
+Guardar o ficheiro em PDF
+Gerar números aleatórios
+Limpar o ecrã
+1
+Qual ficheiro de cabeçalho utilizámos para SetConsoleOutputCP?
+random
+Windows.h
+fstream
+vector
+2
+Qual instrução utilizámos para escolher entre os níveis no menu?
+for
+while
+switch
+struct
+3
+No switch, qual opção trata valores que não correspondem aos cases definidos?
+else
+otherwise
+default
+invalid
+3
+Se houver 20 perguntas e o jogador acertar 15, qual é a percentagem de respostas certas?
+50%
+65%
+75%
+80%
+3

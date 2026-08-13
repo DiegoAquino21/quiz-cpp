@@ -1,0 +1,300 @@
+Qual é a capital de Portugal?
+Lisboa
+Porto
+Coimbra
+Faro
+1
+Quantos dias tem uma semana?
+5
+6
+7
+8
+3
+Qual é o maior planeta do Sistema Solar?
+Terra
+Marte
+Júpiter
+Vénus
+3
+Quanto é 5 + 5?
+8
+9
+10
+11
+3
+Qual é a capital de Espanha?
+Lisboa
+Madrid
+Barcelona
+Sevilha
+2
+Qual destes animais é um mamífero?
+Tubarão
+Golfinho
+Sardinha
+Polvo
+2
+Qual é o planeta conhecido como Planeta Vermelho?
+Vénus
+Marte
+Júpiter
+Mercúrio
+2
+Quanto é 10 - 4?
+4
+5
+6
+7
+3
+Qual destes é um sistema operativo?
+Windows
+Google
+YouTube
+Facebook
+1
+Qual destes dispositivos é usado para escrever no computador?
+Monitor
+Teclado
+Impressora
+Coluna
+2
+Quantos meses tem um ano?
+10
+11
+12
+13
+3
+Qual é a capital de França?
+Londres
+Roma
+Paris
+Berlim
+3
+Qual destes é um navegador de Internet?
+Excel
+Chrome
+Word
+PowerPoint
+2
+Quanto é 3 x 4?
+7
+10
+12
+14
+3
+Qual destes componentes apresenta imagens no computador?
+Rato
+Teclado
+Monitor
+Microfone
+3
+Qual é o oceano que separa a Europa da América?
+Índico
+Pacífico
+Atlântico
+Ártico
+3
+Qual linguagem estamos a utilizar neste projeto?
+Python
+Java
+C++
+Visual Basic
+3
+Qual destes é utilizado para guardar ficheiros?
+Disco
+Monitor
+Rato
+Microfone
+1
+Quanto é 20 dividido por 4?
+4
+5
+6
+8
+2
+Qual é a capital de Itália?
+Milão
+Roma
+Veneza
+Nápoles
+2
+Qual destes animais consegue voar?
+Cão
+Gato
+Águia
+Cavalo
+3
+Qual destes programas é utilizado para criar documentos de texto?
+Microsoft Word
+Paint
+Calculadora
+VLC
+1
+Qual é o resultado de 7 + 8?
+13
+14
+15
+16
+3
+Qual componente é normalmente utilizado para mover o cursor?
+Monitor
+Rato
+Impressora
+Coluna
+2
+Qual é a capital do Brasil?
+Rio de Janeiro
+São Paulo
+Brasília
+Salvador
+3
+Qual destes números é par?
+3
+5
+8
+9
+3
+Que dispositivo permite imprimir documentos em papel?
+Monitor
+Scanner
+Impressora
+Teclado
+3
+Quanto é 100 dividido por 10?
+5
+10
+20
+100
+2
+Qual destes é um dispositivo de entrada?
+Teclado
+Monitor
+Coluna
+Projetor
+1
+Que extensão é normalmente utilizada num ficheiro de texto simples?
+.txt
+.jpg
+.mp3
+.exe
+1
+Qual é a estrela do Sistema Solar?
+Lua
+Sol
+Terra
+Marte
+2
+Quanto é 9 x 2?
+16
+18
+20
+22
+2
+Qual destas opções é uma linguagem de programação?
+HTML
+C++
+Windows
+Google
+2
+Qual é a capital do Reino Unido?
+Paris
+Londres
+Dublin
+Madrid
+2
+Quantos minutos tem uma hora?
+30
+45
+60
+90
+3
+Qual destes dispositivos permite ouvir som?
+Teclado
+Colunas
+Rato
+Scanner
+2
+Qual tecla é normalmente utilizada para confirmar uma operação?
+Shift
+Ctrl
+Enter
+Alt
+3
+Quanto é 50 + 25?
+65
+70
+75
+80
+3
+Qual destes é um motor de pesquisa?
+Google
+Windows
+Excel
+Word
+1
+Qual é o satélite natural da Terra?
+Sol
+Lua
+Marte
+Vénus
+2
+Qual destes formatos é normalmente utilizado para imagens?
+.jpg
+.txt
+.cpp
+.exe
+1
+Quanto é 6 x 6?
+30
+32
+36
+42
+3
+Qual dispositivo é utilizado para digitalizar documentos?
+Scanner
+Monitor
+Rato
+Coluna
+1
+Qual é a capital da Alemanha?
+Berlim
+Munique
+Paris
+Viena
+1
+Qual destas opções representa memória de um computador?
+RAM
+HDMI
+USB-C
+VGA
+1
+Quanto é 15 - 5?
+5
+10
+15
+20
+2
+Qual símbolo termina normalmente uma instrução em C++?
+:
+;
+,
+.
+2
+Qual comando de C++ utilizamos para mostrar informação no ecrã?
+cin
+cout
+main
+return
+2
+Qual comando utilizamos normalmente para receber um valor do utilizador em C++?
+cout
+endl
+cin
+include
+3
+Qual função é o ponto de entrada de um programa C++?
+start()
+program()
+main()
+begin()
+3
