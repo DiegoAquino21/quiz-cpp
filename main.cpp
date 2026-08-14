@@ -263,6 +263,36 @@ int main()
 
 			guardarPontuacao(pontos);
 
+			if (pontos >= 120)
+{
+    cout << "\nParabéns! Nível Iniciante concluído com sucesso." << endl;
+    cout << "Vai avançar automaticamente para o nível Intermédio." << endl;
+
+    vector<Pergunta> perguntasIntermedio =
+        carregarPerguntas("Intermedio.txt");
+
+    vector<Pergunta> perguntasSelecionadasIntermedio =
+        selecionarPerguntas(perguntasIntermedio, 20);
+
+    if (!perguntasSelecionadasIntermedio.empty())
+    {
+        int pontosIntermedio =
+            jogarQuiz(perguntasSelecionadasIntermedio);
+
+        guardarPontuacao(pontosIntermedio);
+
+        cout << "\n================================" << endl;
+        cout << "Fim do nível Intermédio!" << endl;
+        cout << "Pontuação final: "
+             << pontosIntermedio << " pontos" << endl;
+        cout << "================================" << endl;
+    }
+}
+else
+{
+    cout << "\nNão atingiu a pontuação mínima para avançar." << endl;
+}
+
 			cout << "\n====================================" << endl;
 			cout << "Fim do nível Iniciante!" << endl;
 			cout << "Pontuação final: "
@@ -288,6 +318,36 @@ int main()
 
 			guardarPontuacao(pontos);
 
+			if (pontos >= 120)
+{
+    cout << "\nParabéns! Nível Intermédio concluído com sucesso." << endl;
+    cout << "Vai avançar automaticamente para o nível Avançado." << endl;
+
+    vector<Pergunta> perguntasAvancado =
+        carregarPerguntas("Avancado.txt");
+
+    vector<Pergunta> perguntasSelecionadasAvancado =
+        selecionarPerguntas(perguntasAvancado, 20);
+
+    if (!perguntasSelecionadasAvancado.empty())
+    {
+        int pontosAvancado =
+            jogarQuiz(perguntasSelecionadasAvancado);
+
+        guardarPontuacao(pontosAvancado);
+
+        cout << "\n================================" << endl;
+        cout << "Fim do nível Avançado!" << endl;
+        cout << "Pontuação final: "
+            << pontosAvancado << " pontos" << endl;
+        cout << "================================" << endl;
+    }
+}
+else
+{
+    cout << "\nNão atingiu a pontuação mínima para avançar." << endl;
+}
+			
 			cout << "\n====================================" << endl;
 			cout << "Fim do nível Intemédio!" << endl;
 			cout << "Pontuação final: "
