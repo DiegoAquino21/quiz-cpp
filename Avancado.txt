@@ -1,0 +1,300 @@
+Qual é a função principal de um ponteiro em C++?
+Guardar apenas texto
+Armazenar um endereço de memória
+Criar ficheiros
+Executar ciclos
+2
+Qual operador é utilizado para obter o endereço de uma variável?
+*
+&
+%
+#
+2
+Qual operador permite aceder ao valor apontado por um ponteiro?
+&
+*
+::
+%
+2
+O que significa passar um argumento por referência?
+A função recebe uma cópia independente
+A função pode trabalhar diretamente com a variável original
+O argumento é convertido em string
+A variável é eliminada
+2
+Qual símbolo é utilizado para declarar uma referência em C++?
+#
+&
+%
+@
+2
+Qual é a principal vantagem de utilizar funções?
+Evitar qualquer utilização de variáveis
+Organizar e reutilizar partes do código
+Eliminar a função main
+Impedir a utilização de ciclos
+2
+O que é um parâmetro de uma função?
+Um valor definido apenas dentro de um ficheiro txt
+Uma variável utilizada na definição da função para receber dados
+Um comando para terminar o programa
+Uma biblioteca de C++
+2
+O que acontece quando uma função int executa return 10?
+A função devolve o valor 10
+O programa espera 10 segundos
+A função é executada 10 vezes
+A variável int é eliminada
+1
+Qual é a principal diferença entre array e vector?
+Um vector pode ajustar o seu tamanho dinamicamente
+Um array só guarda texto
+Um vector não pode guardar números
+Um array não possui índices
+1
+Qual é o primeiro índice de um array em C++?
+-1
+0
+1
+2
+2
+Num array int numeros[5], qual é o último índice válido?
+3
+4
+5
+6
+2
+O que pode acontecer ao tentar aceder a uma posição fora dos limites de um array?
+O compilador transforma automaticamente o índice
+Pode ocorrer comportamento indefinido
+O array aumenta sempre de tamanho
+O programa converte o array num vector
+2
+Para que serve uma struct?
+Agrupar diferentes dados relacionados
+Criar apenas ciclos
+Abrir exclusivamente ficheiros
+Substituir todas as funções
+1
+Qual destes elementos pode existir dentro de uma struct?
+Variáveis de diferentes tipos
+Apenas números inteiros
+Apenas strings
+Apenas valores booleanos
+1
+O que faz vector<int> numeros;?
+Declara um vector de números inteiros
+Cria um ficheiro chamado numeros
+Declara um único número inteiro
+Cria um array obrigatoriamente com 10 posições
+1
+O que faz numeros.push_back(5)?
+Remove o número 5
+Adiciona 5 ao final do vector
+Cria cinco vectors
+Ordena o vector
+2
+O que faz numeros.clear()?
+Remove todos os elementos do vector
+Fecha o programa
+Ordena os elementos
+Duplica os elementos
+1
+Qual função permite verificar quantos elementos existem num vector?
+size()
+length()
+amount()
+total()
+1
+O que significa perguntas[i]?
+O elemento do vector perguntas localizado no índice i
+O tamanho do vector
+Um ficheiro chamado i
+A quantidade máxima de perguntas
+1
+Para que serve um ciclo for no nosso Quiz?
+Percorrer as perguntas selecionadas
+Abrir o Windows
+Criar o ficheiro de pontuação
+Alterar o UTF-8
+1
+Qual é a finalidade da condição i < perguntas.size() num ciclo?
+Continuar enquanto i representar uma posição válida do vector
+Executar apenas quando o vector estiver vazio
+Apagar o último elemento
+Guardar o tamanho no ficheiro
+1
+O que faz i++ num ciclo?
+Aumenta i em uma unidade
+Diminui i em uma unidade
+Multiplica i por dois
+Coloca i igual a zero
+1
+Para que serve ifstream?
+Ler dados de um ficheiro
+Escrever exclusivamente na consola
+Criar números aleatórios
+Medir o tempo
+1
+Para que serve ofstream?
+Escrever dados num ficheiro
+Ler exclusivamente o teclado
+Misturar um vector
+Medir segundos
+1
+O que significa abrir um ficheiro com ios::app?
+Adicionar novos dados sem eliminar o conteúdo existente
+Apagar sempre o conteúdo anterior
+Abrir o ficheiro apenas para leitura
+Mudar automaticamente o nome do ficheiro
+1
+O que verifica a expressão if (!ficheiro)?
+Se ocorreu uma falha ao abrir ou utilizar o ficheiro
+Se o ficheiro contém exatamente 50 linhas
+Se o ficheiro está vazio
+Se o nome do ficheiro é uma string
+1
+Para que serve getline()?
+Ler uma linha completa
+Ler apenas números
+Fechar um ficheiro
+Criar um vector
+1
+Por que usamos ficheiro.ignore() depois de ficheiro >> p.correta?
+Para descartar o carácter pendente antes do próximo getline
+Para apagar a pergunta anterior
+Para fechar o ficheiro
+Para ignorar todas as respostas
+1
+O que faz perguntas.push_back(p)?
+Adiciona a pergunta p ao final do vector
+Remove a pergunta p
+Apresenta p na consola
+Grava p automaticamente no disco
+1
+O que faz return perguntas numa função que devolve vector<Pergunta>?
+Devolve o vector para quem chamou a função
+Apaga todas as perguntas
+Imprime automaticamente as perguntas
+Fecha o programa
+1
+Para que utilizamos shuffle()?
+Alterar aleatoriamente a ordem dos elementos
+Ordenar sempre alfabeticamente
+Eliminar elementos repetidos
+Guardar elementos num ficheiro
+1
+O que representa perguntas.begin()?
+Um iterador para o início do vector
+O tamanho do vector
+A última pergunta
+Um ficheiro
+1
+O que representa perguntas.end()?
+A posição que representa o fim da sequência do vector
+A primeira pergunta
+O número de respostas corretas
+O início do ficheiro
+1
+Qual é a finalidade de mt19937 no nosso programa?
+Fornecer um gerador pseudoaleatório para shuffle
+Medir os 20 segundos
+Ler caracteres UTF-8
+Guardar pontuações
+1
+Para que serve chrono::steady_clock no Quiz?
+Medir o tempo decorrido de forma apropriada para intervalos
+Mostrar a hora atual ao jogador
+Guardar a data no ficheiro
+Gerar perguntas
+1
+O que faz duration_cast<chrono::seconds>?
+Converte uma duração para segundos
+Interrompe o programa durante vários segundos
+Cria uma variável string
+Converte pontos em percentagem
+1
+Para que serve _kbhit()?
+Verificar se existe uma tecla pressionada disponível
+Limpar o teclado
+Mostrar uma tecla na consola
+Guardar uma tecla num ficheiro
+1
+O que faz _getch()?
+Obtém um carácter do teclado sem necessitar do Enter
+Apaga o último carácter do ficheiro
+Converte um inteiro em char
+Fecha a consola
+1
+Na expressão tecla - '0', qual é o objetivo?
+Converter um dígito em carácter para um valor numérico correspondente
+Subtrair sempre zero à pontuação
+Apagar a tecla
+Transformar qualquer letra em zero
+1
+Por que lerRespostaComTempo retorna 0 quando o tempo termina?
+Para sinalizar que não foi registada uma resposta válida
+Porque zero representa sempre uma resposta correta
+Para adicionar dez pontos
+Para reiniciar o computador
+1
+O que faz Sleep(100) no ciclo de espera?
+Pausa a execução aproximadamente 100 milissegundos
+Pausa exatamente 100 segundos
+Termina o programa
+Limpa a consola
+1
+Qual é o objetivo de SetConsoleOutputCP(CP_UTF8)?
+Configurar a saída da consola para UTF-8
+Definir a pontuação inicial
+Escolher o nível
+Abrir os ficheiros
+1
+Qual é o objetivo de SetConsoleCP(CP_UTF8)?
+Configurar a entrada da consola para UTF-8
+Gerar perguntas aleatórias
+Guardar respostas
+Calcular percentagens
+1
+Se um jogador acertar 18 de 20 perguntas, quantos pontos consegue?
+160
+170
+180
+200
+3
+Se um jogador acertar 16 de 20 perguntas, qual é a percentagem de acertos?
+60%
+70%
+80%
+90%
+3
+Qual expressão calcula corretamente a percentagem de acertos?
+certas * 100.0 / perguntas.size()
+certas + 100 / perguntas.size()
+certas / 10
+perguntas.size() * 100
+1
+Por que utilizamos 100.0 em vez de apenas 100 no cálculo da percentagem?
+Para favorecer um cálculo com valor de ponto flutuante
+Para limitar a pontuação a 100
+Porque 100 é inválido em C++
+Para converter o vector em double
+1
+No switch, para que serve break?
+Terminar o case atual e evitar continuar nos seguintes
+Fechar obrigatoriamente o programa
+Sair de qualquer função
+Apagar a opção escolhida
+1
+Qual é a finalidade do default num switch?
+Tratar valores que não correspondem aos cases definidos
+Executar sempre o primeiro case
+Definir a resposta correta
+Criar uma opção obrigatoriamente igual a zero
+1
+No nosso Quiz, qual é a melhor razão para separar o programa em funções?
+Tornar o código mais organizado, reutilizável e fácil de compreender
+Fazer o programa utilizar mais memória
+Evitar completamente variáveis
+Eliminar a necessidade do main
+1
